@@ -1,5 +1,5 @@
 ---
-- hosts: hostgroup-role-phpbb
+- hosts: all
   become: True
   vars_prompt:
     - name: "phpbb_target_version"

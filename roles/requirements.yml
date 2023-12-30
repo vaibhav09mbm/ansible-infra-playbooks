@@ -29,9 +29,6 @@ roles:
   - src: https://github.com/CentOS/ansible-role-debuginfod
     name: debuginfod
     version: master 
-  - src: https://github.com/CentOS/ansible-role-distgit-lookaside
-    name: distgit-lookaside
-    version: master 
   - src: https://github.com/CentOS/ansible-role-duffy
     name: duffy
     version: master 

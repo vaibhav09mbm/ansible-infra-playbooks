@@ -257,6 +257,9 @@ roles:
   - src: https://github.com/CentOS/ansible-role-zabbix-server
     name: zabbix-server
     version: master 
+  - src: https://github.com/ansiblebit/oracle-java
+    name: ansiblebit.oracle-java
+    version: master
 collections:
   - name: ansible.posix
     type: git
@@ -298,8 +301,5 @@ collections:
     type: git
     source: https://github.com/ansible-collections/community.rabbitmq.git
     version: 1.2.3
-  - name: ansiblebit.oracle-java
-    type: git
-    source: https://github.com/ansiblebit/oracle-java.git
-    version: 6.22.16
+
     

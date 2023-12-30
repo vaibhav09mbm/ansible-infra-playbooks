@@ -1,5 +1,5 @@
 ---
-- hosts: hostgroup-role-zabbix-server:hostgroup-role-zabbix-proxy
+- hosts: all
   become: True
 
   tasks: 

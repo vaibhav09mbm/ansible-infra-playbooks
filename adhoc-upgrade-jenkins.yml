@@ -1,5 +1,5 @@
 ---
-- hosts: "{{ target }}"
+- hosts: all
   become: True
   vars_prompt:
     - name: "target"

@@ -1,5 +1,5 @@
 ---
-- hosts: hostgroup-role-wp
+- hosts: all
   become: True
   tasks: 
     - name: Upgrading wordpress to version {{ wp_release }}
